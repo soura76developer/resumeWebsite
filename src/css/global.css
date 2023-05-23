@@ -1,0 +1,188 @@
+:root{
+  --col1:#67625f;
+  --col2:#427e97;
+  --col3:#63a0bb;
+  --col4:#6ea5c4;
+  --col5:#e29b73;
+  --col6:#e87f5f;
+}
+
+*{
+
+
+font-family: 'Aboreto', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Libre Bodoni', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Tapestry', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.header{
+  height:20px;
+  background-color: var(--#e87f5f);
+}
+.container-fluid{
+  background: rgba(255, 255, 255, 0.52);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.58);
+}
+
+h3 {
+  color: var(--col3);
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+  /* li {
+    float: left;
+    margin-right: 10px;
+  }
+   */
+  li a {
+    text-decoration: none;
+  }
+
+  .img_style{
+    width: 160px;
+    height:160px;
+    border-radius:50%;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+  }
+
+
+  
+  .list_size{
+    font-size: 15px;
+  }
+  .description{
+    text-align:justify;
+    font-weight: 700;
+  }
+  /* .details_style{
+
+  } */
+
+  .detailsStyleIcon{
+    display:inline;
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .skillSetItemsContainer{
+    border:1px solid black;
+    border-radius: 7px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px var(--col5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* background-color:var(--col4); */
+  }
+  .skillSetItemsContainer.static:hover{
+    cursor:default;
+    
+    /* animation: first 5s infinite 2s alternate linear;
+    position: relative; */
+  }
+  /* @keyframes first {
+    0%   {left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:0px; top:0px;}
+  } */
+
+  .skillSetItemsContainer:hover{
+    background-color:var(--col6);
+    color:white;
+    cursor: pointer;
+  }
+
+  .skillSetItems{
+    margin:auto;
+    font-size:20px;
+    font-weight: 600;
+    
+  }
+  .hyperLinkStyle{
+    text-decoration:none;
+    color:black;
+  }
+  .hyperLinkStyle:hover{
+    color:var(--col2);
+    font-weight:700;
+  }
+  .workExStyle{
+    font-size:20px;
+    display: inline-block;
+  }
+  .version{
+    margin-left:10px;
+    padding: 4px 6px;
+    color: white;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-weight:800;
+    font-size: 15px;
+    background-color: green;
+  }
+
+  .ongoing{
+    margin-left:10px;
+    padding: 4px 6px;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 10px;
+    font-weight:800;
+    font-size: 15px;
+    background-color: orange;
+  }
+
+  .workexGlassMohrposys{
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .headings{
+    font-size:25px;
+    font-weight:900;
+    color:var(--col2)
+  }
+
+  .contact-information{
+    background-color:var(--col4) ;
+    color:black;
+    background: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .contact-information.left{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+  }
+
+  .contact-information.right{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
